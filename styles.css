@@ -1,0 +1,90 @@
+.header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* 필요에 따라 높이를 지정해줍니다 */
+    height: 80px; /* 예시로 높이를 설정해두었습니다 */
+}
+ 
+@font-face {
+    font-family: 'BASTARD';
+    src: url('fonts/BASTARD.ttf') format('truetype');
+}
+
+.small-text {
+    font-family: 'SuisseIntl', sans-serif;
+    font-size: 0.7em !important;
+    color: rgb(55, 55, 55);
+    margin-bottom:-3px;
+    font-weight: lighter;
+    letter-spacing: 0.2em; /* Adjust spacing as needed */
+}
+
+.BASTARD-font {
+    font-family: 'BASTARD', sans-serif !important;
+    font-size: 1.4em;
+    font-weight: bolder;
+    padding-bottom: 6px;
+}
+
+
+.content-wrapper {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+
+.text-content {
+    line-height: 1.4;
+    padding-top: 5%;
+}
+
+.text-content .title-font {
+    font-size: inherit;
+    font-weight: normal;
+}
+
+.timeline {
+    border: 1.3px dotted rgb(178, 178, 178); /* Adjust color and thickness as needed */
+    padding: 0px; /* Optional: Add padding for spacing within the border */
+    padding-right: 4px;
+    padding-left: 4px;
+    display: inline-block; /* Keeps the border tight around the text */
+    font-family: 'SuisseIntl', sans-serif;
+    font-size: 0.8em !important;
+    color: rgb(55, 55, 55);
+    margin-bottom: 1px;
+    font-weight: lighter;
+    letter-spacing: 0.09em;
+    line-height: 1.9; /* Adjust for vertical spacing between lines */
+
+}
+
+
+.small-icon {
+    width: 15px; 
+    vertical-align: middle; 
+    margin: 1px 0px 0px 0px;
+}
+
+.small-icon + .small-icon {
+    margin-left: -0.4px; /* 첫 번째 이미지와 두 번째 이미지 사이 간격 */
+}
+
+a {
+    text-decoration: none; /* Removes the underline */
+    color: black;
+    font-style: italic;
+}
+
+.image-section img {
+    width: 500px; /* Set the desired width */
+    height: auto; /* Maintains the aspect ratio */
+    display: block;
+    margin: 0 auto; /* Centers the image */
+}
+.Artist {
+    color: rgb(55, 55, 55);
+    font-style: italic;
+    
+}
