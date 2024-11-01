@@ -8,7 +8,7 @@
  
 @font-face {
     font-family: 'BASTARD';
-    src: url('fonts/BASTARD.ttf') format('truetype');
+    src: url('fonts/BASTARD.woff2') format('truetype');
 }
 
 .small-text {
