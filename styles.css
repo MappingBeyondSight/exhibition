@@ -61,7 +61,7 @@
     padding-bottom: 8px;
     display: inline-block; /* Keeps the border tight around the text */
     /* font-family: 'SuisseIntl', sans-serif; */
-    font-size: 0.8em !important;
+    font-size: 0.9em;
     color: black; /* Added missing semicolon */
     margin-bottom: 1px;
     letter-spacing: 0.09em;
@@ -102,6 +102,11 @@ a {
     color: rgb(55, 55, 55);
     font-style: italic;
 }
+
+.artist-list {
+    line-height: 35px;
+}
+
 
 @media (max-width: 1170px) {
     .text-content {
