@@ -13,6 +13,8 @@
          url('fonts/BASTARD.TTF') format('truetype');
     font-family: 'SuisseIntl';
     src: url('fonts/SuisseIntl-Light.ttf') format('truetype');
+    font-family: 'HelveticaNeueMedium';
+    src: url('fonts/HelveticaNeueLight.otf') format('truetype');
     font-weight: 300;
     font-style: normal;
 }
@@ -29,8 +31,9 @@
     border: 1.3px dotted rgb(178, 178, 178); 
     display: inline-block; 
     font-family: 'SuisseIntl', sans-serif;
+    font-weight: lighter;
     font-size: 0.7em !important;
-    letter-spacing: 0.1em;
+    letter-spacing: 0.08em;
     padding-right: 5px;
     padding-left: 5px;
     padding-top: 5px;
@@ -51,6 +54,19 @@
     margin: 0 auto;
 }
 
+.main-text {
+    font-family: 'HelveticaNeueMedium', sans-serif;
+    letter-spacing: 0.1em;
+}
+
+.last-text {
+    font-family: 'SuisseIntl', sans-serif;
+    font-size: 0.8em !important;
+    color: black; /* Added missing semicolon */
+    margin-bottom: 10px;
+    font-weight: lighter;
+    letter-spacing: 0.1em; 
+}
 
 .text-content {
     line-height: 1.4;
@@ -66,8 +82,8 @@
 .timeline {
     border: 1.3px dotted rgb(178, 178, 178); /* Adjust color and thickness as needed */
     padding: 2px; /* Optional: Add padding for spacing within the border */
-    padding-right: 5px;
-    padding-left: 5px;
+    padding-right: 10px;
+    padding-left: 10px;
     padding-top: 8px;
     padding-bottom: 8px;
     display: inline-block; /* Keeps the border tight around the text */
@@ -78,6 +94,7 @@
     letter-spacing: 0.09em;
     line-height: 1.9; /* Adjust for vertical spacing between lines */
     /* transform: scaleY(0.92);  */
+    font-weight: lighter;
 }
 
 
@@ -115,12 +132,15 @@ a {
     border: 1.3px dotted rgb(178, 178, 178); /* Adjust color and thickness as needed */
     padding-left: 10px;
     padding-right: 10px;
-    padding-top: 6px;
+    padding-top: 8px;
     padding-bottom: 6px;
+    font-family: 'HelveticaNeueMedium', sans-serif;
+    margin-bottom: 0;
 }
 
 .artist-list {
     line-height: 35px;
+    margin-top: -10px;
 }
 
 
