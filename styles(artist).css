@@ -26,7 +26,7 @@
 .text-content {
     width: 100%;
     max-width: 800px; /* Matches the image's max width */
-    font-size: 1em;
+    font-size: 0.9em;
     line-height: 1.5;
     margin-top: 10px;
 }
@@ -40,7 +40,7 @@
 /* Link styling - responsive */
 .link {
     font-family: 'SuisseIntl', sans-serif;
-    font-size: 0.8em;
+    font-size: 0.7em;
     color: rgb(102, 102, 102);
     display: inline;
     letter-spacing: 0.1em;
