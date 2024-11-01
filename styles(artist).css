@@ -60,3 +60,8 @@
     max-width: 800px;
     margin: 0 auto;
 }
+
+.text-content .title-font {
+    font-size: inherit;
+    font-weight: normal;
+}
