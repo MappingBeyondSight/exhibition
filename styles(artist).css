@@ -33,7 +33,7 @@
 .name {
     font-weight: bold;
     font-style: italic;
-    margin-bottom: 0;
+    margin-bottom: -5px;
 }
 
 .link {
@@ -43,8 +43,6 @@
     display: inline; /* Ensures all elements in .link stay on the same line */
     letter-spacing: 0.1em;
     font-weight: lighter;
-    margin-top: -10px;
-    
 }
 
 .link-text {
