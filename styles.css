@@ -89,3 +89,47 @@ a {
     font-style: italic;
     
 }
+
+@media (max-width: 1170px) {
+    .text-content {
+        font-size: 0.95em;
+    }
+
+    .timeline,
+    .artist-list a {
+        font-size: 0.85em;
+    }
+}
+
+@media (max-width: 1024px) {
+    .text-content {
+        font-size: 0.9em;
+    }
+
+    .timeline,
+    .artist-list a {
+        font-size: 0.8em;
+    }
+}
+
+/* Adjustments specifically for iPhone 14 Pro and similar sizes (up to 430px wide) */
+@media (max-width: 430px) {
+    .header h1 {
+        font-size: 1.5em;
+    }
+
+    .text-content {
+        font-size: 0.85em;
+        line-height: 1.5;
+    }
+
+    .timeline,
+    .artist-list a {
+        font-size: 0.75em;
+    }
+
+    .artist-image,
+    .image-section img {
+        max-width: 100%;
+    }
+}
