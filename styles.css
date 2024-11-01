@@ -9,14 +9,14 @@
 @font-face {
     font-family: 'BASTARD';
     src: url('fonts/BASTARD.woff') format('truetype');
-    font-family: 'NotoSerifGurmukhi';
-    src: url('fonts/NotoSerifGurmukhi-Light.woff2') format('truetype');
+    font-family: 'SuisseIntl';
+    src: url('fonts/SuisseIntl-Light.ttf') format('truetype');
     font-weight: 300;
     font-style: normal;
 }
 
 .small-text {
-    font-family: 'NotoSerifGurmukhi', sans-serif;
+    font-family: 'SuisseIntl', sans-serif;
     font-size: 0.7em !important;
     color: rgb(55, 55, 55);
     margin-bottom:-3px;
@@ -57,14 +57,14 @@
     padding-top: 8px;
     padding-bottom: 8px;
     display: inline-block; /* Keeps the border tight around the text */
-    font-family: 'NotoSerifGurmukhi', sans-serif;
+    font-family: 'SuisseIntl', sans-serif;
     font-size: 0.8em !important;
     color: rgb(55, 55, 55);
     margin-bottom: 1px;
-    font-weight: lighter;
+
     letter-spacing: 0.09em;
     line-height: 1.9; /* Adjust for vertical spacing between lines */
-    transform: scaleY(0.9);
+    transform: scaleY(0.9.2);
 
 }
 
