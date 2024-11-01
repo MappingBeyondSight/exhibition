@@ -1,0 +1,52 @@
+/* Center alignment for header */
+.header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80px;
+}
+
+/* Wrapper to keep content aligned and centered */
+.image-text-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+/* Image styling */
+.artist-image {
+    max-width: 800px; /* Sets the maximum width for both image and text */
+    height: auto;
+}
+
+/* Text content styling */
+.text-content {
+    max-width: 800px; /* Matches the image's max width */
+    text-align: left; /* Aligns text to the left */
+    font-size: 1em;
+    line-height: 1.5;
+    margin-top: 10px; /* Space between image and text */
+}
+
+.name {
+    font-weight: bold;
+    font-style: italic;
+}
+
+.link {
+    font-family: 'SuisseIntl', sans-serif;
+    font-size: 0.8em !important;
+    color: rgb(102, 102, 102);
+    display: inline; /* Ensures all elements in .link stay on the same line */
+    letter-spacing: 0.1em;
+    
+}
+
+.link-text {
+    color: rgb(102, 102, 102);
+    text-decoration: underline;
+    text-underline-offset: 6px; /* Adds space between text and underline */
+    text-decoration-thickness: 0.4px;
+}
