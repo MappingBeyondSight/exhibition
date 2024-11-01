@@ -47,9 +47,9 @@
 
 .timeline {
     border: 1.3px dotted rgb(178, 178, 178); /* Adjust color and thickness as needed */
-    padding: 0px; /* Optional: Add padding for spacing within the border */
-    padding-right: 4px;
-    padding-left: 4px;
+    padding: 2px; /* Optional: Add padding for spacing within the border */
+    padding-right: 10px;
+    padding-left: 10px;
     display: inline-block; /* Keeps the border tight around the text */
     font-family: 'SuisseIntl', sans-serif;
     font-size: 0.8em !important;
