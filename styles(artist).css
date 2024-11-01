@@ -41,7 +41,7 @@
 .link {
     font-family: 'SuisseIntl', sans-serif;
     font-size: 0.7em;
-    color: rgb(102, 102, 102);
+    color: black;
     display: inline;
     letter-spacing: 0.1em;
     font-weight: lighter;
@@ -50,9 +50,9 @@
 
 /* Responsive underline for link text */
 .link-text {
-    color: rgb(102, 102, 102);
+    color: black;
     text-decoration: underline;
-    text-underline-offset: 6px;
+    text-underline-offset: 5px;
     text-decoration-thickness: 0.4px;
 }
 

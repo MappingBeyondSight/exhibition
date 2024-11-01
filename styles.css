@@ -101,6 +101,11 @@ a {
 .Artist {
     color: rgb(55, 55, 55);
     font-style: italic;
+    border: 1.3px dotted rgb(178, 178, 178); /* Adjust color and thickness as needed */
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 6px;
+    padding-bottom: 6px;
 }
 
 .artist-list {
@@ -146,8 +151,6 @@ a {
         font-size: 0.85em;
         line-height: 1.5;
     }
-
-    
 
     .artist-image,
     .image-section img {
