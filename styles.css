@@ -128,7 +128,7 @@ a {
 }
 .Artist {
     color: rgb(55, 55, 55);
-    font-style: italic;
+    /* font-style: italic; */
     border: 1.3px dotted rgb(178, 178, 178); /* Adjust color and thickness as needed */
     padding-left: 10px;
     padding-right: 10px;
@@ -136,6 +136,8 @@ a {
     padding-bottom: 6px;
     font-family: 'HelveticaNeueMedium', sans-serif;
     margin-bottom: 0;
+    font-size: 0.8em;
+    letter-spacing: 0.09em;
 }
 
 .artist-list {
