@@ -21,8 +21,8 @@
 .small-text {
     font-family: 'SuisseIntl', sans-serif;
     font-size: 0.7em !important;
-    color: rgb(55, 55, 55);
-    margin-bottom:-3px;
+    color: black; /* Added missing semicolon */
+    margin-bottom: -3px;
     font-weight: lighter;
     letter-spacing: 0.2em; /* Adjust spacing as needed */
 }
@@ -62,13 +62,11 @@
     display: inline-block; /* Keeps the border tight around the text */
     font-family: 'SuisseIntl', sans-serif;
     font-size: 0.8em !important;
-    color: rgb(55, 55, 55);
+    color: black; /* Added missing semicolon */
     margin-bottom: 1px;
-
     letter-spacing: 0.09em;
     line-height: 1.9; /* Adjust for vertical spacing between lines */
-    transform: scaleY(0.9.2);
-
+    transform: scaleY(0.92); /* Corrected syntax */
 }
 
 
@@ -76,6 +74,12 @@
     width: 15px; 
     vertical-align: middle; 
     margin: 1px 0px 0px 0px;
+}
+
+.small-arrow {
+    width: 15px; /* Adjust width as needed */
+    vertical-align: middle; /* Aligns with text */
+    margin-right: 5px; /* Adds space between arrow and text */
 }
 
 .small-icon + .small-icon {
@@ -97,7 +101,6 @@ a {
 .Artist {
     color: rgb(55, 55, 55);
     font-style: italic;
-    
 }
 
 @media (max-width: 1170px) {
