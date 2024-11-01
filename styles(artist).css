@@ -34,7 +34,7 @@
 .name {
     font-weight: bold;
     font-style: italic;
-    margin-bottom: -5px;
+    margin-bottom: 10px;
 }
 
 /* Link styling - responsive */
@@ -66,3 +66,4 @@
     font-size: inherit;
     font-weight: normal;
 }
+
