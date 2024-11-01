@@ -60,13 +60,13 @@
     padding-top: 8px;
     padding-bottom: 8px;
     display: inline-block; /* Keeps the border tight around the text */
-    font-family: 'SuisseIntl', sans-serif;
+    /* font-family: 'SuisseIntl', sans-serif; */
     font-size: 0.8em !important;
     color: black; /* Added missing semicolon */
     margin-bottom: 1px;
     letter-spacing: 0.09em;
     line-height: 1.9; /* Adjust for vertical spacing between lines */
-    transform: scaleY(0.92); /* Corrected syntax */
+    /* transform: scaleY(0.92);  */
 }
 
 
@@ -112,10 +112,7 @@ a {
         font-family: 'BASTARD', sans-serif !important;
     }
 
-    .timeline,
-    .artist-list a {
-        font-size: 0.85em;
-    }
+   
 }
 
 @media (max-width: 1024px) {
@@ -127,10 +124,7 @@ a {
     }
     
 
-    .timeline,
-    .artist-list a {
-        font-size: 0.8em;
-    }
+    
 }
 
 /* Adjustments specifically for iPhone 14 Pro and similar sizes (up to 430px wide) */
@@ -148,10 +142,7 @@ a {
         line-height: 1.5;
     }
 
-    .timeline,
-    .artist-list a {
-        font-size: 0.75em;
-    }
+    
 
     .artist-image,
     .image-section img {
