@@ -11,7 +11,6 @@
     src: url('fonts/BASTARD.woff2') format('woff2'),
          url('fonts/BASTARD.woff') format('woff'),
          url('fonts/BASTARD.TTF') format('truetype');
-
     font-family: 'SuisseIntl';
     src: url('fonts/SuisseIntl-Light.ttf') format('truetype');
     font-weight: 300;
@@ -22,16 +21,27 @@
     font-family: 'SuisseIntl', sans-serif;
     font-size: 0.7em !important;
     color: black; /* Added missing semicolon */
-    margin-bottom: -3px;
+    margin-bottom: 10px;
     font-weight: lighter;
     letter-spacing: 0.2em; /* Adjust spacing as needed */
+}
+.address-text {
+    border: 1.3px dotted rgb(178, 178, 178); 
+    display: inline-block; 
+    font-family: 'SuisseIntl', sans-serif;
+    font-size: 0.7em !important;
+    letter-spacing: 0.2em;
+    padding-right: 5px;
+    padding-left: 5px;
+    padding-top: 5px;
+    padding-bottom: 5px;
 }
 
 .BASTARD-font {
     font-family: 'BASTARD', sans-serif !important;
     font-size: 1.4em;
     font-weight: bolder;
-    padding-bottom: 6px;
+    padding-bottom: 1px;
     letter-spacing: 0.04em;
 }
 
@@ -52,6 +62,7 @@
     font-weight: normal;
 }
 
+
 .timeline {
     border: 1.3px dotted rgb(178, 178, 178); /* Adjust color and thickness as needed */
     padding: 2px; /* Optional: Add padding for spacing within the border */
@@ -60,8 +71,8 @@
     padding-top: 8px;
     padding-bottom: 8px;
     display: inline-block; /* Keeps the border tight around the text */
-    /* font-family: 'SuisseIntl', sans-serif; */
-    font-size: 0.9em;
+    font-family: 'SuisseIntl', sans-serif;
+    font-size: 0.8em;
     color: black; /* Added missing semicolon */
     margin-bottom: 1px;
     letter-spacing: 0.09em;
