@@ -8,9 +8,9 @@
  
 @font-face {
     font-family: 'BASTARD';
-    src: url('fonts/BASTARD.woff2') format('woff2');
+    src: url('fonts/BASTARD.woff') format('truetype');
     font-family: 'NotoSerifGurmukhi';
-    src: url('fonts/NotoSerifGurmukhi-Light.woff2') format('woff2');
+    src: url('fonts/NotoSerifGurmukhi-Light.woff2') format('truetype');
     font-weight: 300;
     font-style: normal;
 }
