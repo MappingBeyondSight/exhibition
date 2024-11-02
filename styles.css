@@ -79,8 +79,8 @@
 }
 
 .small-author-text {
-    font-size: 0.8em; /* Adjust size as needed */
-    text-align: right;
+    /* font-size: 0.8em;  */
+    /* text-align: right; */
     display: block; 
     letter-spacing: 0.07em;
   }
