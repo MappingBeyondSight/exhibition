@@ -78,6 +78,13 @@
     font-weight: normal;
 }
 
+.small-author-text {
+    font-size: 0.8em; /* Adjust size as needed */
+    text-align: right;
+    display: block; 
+    letter-spacing: 0.07em;
+  }
+  
 
 .timeline {
     border: 1.3px dotted rgb(178, 178, 178); /* Adjust color and thickness as needed */
