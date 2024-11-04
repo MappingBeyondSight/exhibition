@@ -2,8 +2,8 @@
 
 body {
     background-image: url('images/Artboard 1.png'); /* Path to your background image */
-    background-size: 2000px 700px;  /* Adjust to 50% of the element's size, or specify a pixel value like '800px' */
-    background-position: 65% 120%;
+    background-size: 1600px 990px; 
+    /* background-position: 60% -50%; */
     background-repeat: no-repeat;
     background-attachment: fixed; /* Keeps the image fixed while scrolling (optional) */
   }
@@ -65,7 +65,8 @@ body {
 }
 
 .main-text {
-    font-family: 'HelveticaNeueMedium', sans-serif;
+    font-family: 'SuisseIntl', sans-serif;
+    font-weight: lighter;
     letter-spacing: 0.1em;
 }
 
