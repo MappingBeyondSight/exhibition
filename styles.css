@@ -83,9 +83,9 @@ body {
     line-height: 1.4;
     padding-top: 5%;
   background-color: white; /* Sets a white background */
-  padding: 20px; /* Adds space around the text */
+  padding: 40px; /* Adds space around the text */
   border-radius: 8px; /* Optional: rounds the corners */
-  /* box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);  */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
 }
 
 .text-content .title-font {
