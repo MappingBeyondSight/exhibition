@@ -168,8 +168,12 @@ a {
 
 @media (max-width: 1170px) {
     .text-content {
-        font-size: 0.95em;
-        
+        /* font-size: 0.95em; */
+        font-size: 0.85em;
+        line-height: 1.5;
+        padding: 20px; /* Reduced padding */
+        margin-left: 5px; /* Minimized side margins */
+        margin-right: 5px;
     }
     .BASTARD-font {
         font-family: 'BASTARD', sans-serif !important;
@@ -180,7 +184,12 @@ a {
 
 @media (max-width: 1024px) {
     .text-content {
-        font-size: 0.9em;
+        /* font-size: 0.9em; */
+        font-size: 0.85em;
+        line-height: 1.5;
+        padding: 20px; /* Reduced padding */
+        margin-left: 5px; /* Minimized side margins */
+        margin-right: 5px;
     }
     .BASTARD-font {
         font-family: 'BASTARD', sans-serif !important;
@@ -201,8 +210,13 @@ a {
     
 
     .text-content {
+        /* font-size: 0.85em; */
+        /* line-height: 1.5; */
         font-size: 0.85em;
         line-height: 1.5;
+        padding: 20px; /* Reduced padding */
+        margin-left: 5px; /* Minimized side margins */
+        margin-right: 5px;
     }
 
     .artist-image,
