@@ -17,10 +17,8 @@ body {
 }
  
 @font-face {
-    font-family: 'BASTARD';
-    src: url('fonts/BASTARD.woff2') format('woff2'),
-         url('fonts/BASTARD.woff') format('woff'),
-         url('fonts/BASTARD.TTF') format('truetype');
+    font-family: 'LibreBaskerville';
+    src: url('fonts/LibreBaskerville-Italic.ttf') format('truetype');
     font-family: 'SuisseIntl';
     src: url('fonts/SuisseIntl-Light.ttf') format('truetype');
     font-family: 'HelveticaNeueMedium';
@@ -50,12 +48,12 @@ body {
     padding-bottom: 5px;
 }
 
-.BASTARD-font {
-    font-family: 'BASTARD', sans-serif !important;
+.title {
+    font-family: 'LibreBaskerville';
     font-size: 1.4em;
-    font-weight: bolder;
-    padding-bottom: 1px;
-    letter-spacing: 0.04em;
+    /* font-weight: bolder; */
+    /* letter-spacing: 0.04em; */
+    font-style: italic;
 }
 
 
