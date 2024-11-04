@@ -1,3 +1,13 @@
+/* styles.css */
+
+body {
+    background-image: url('images/Artboard 1.png'); /* Path to your background image */
+    background-size: 2000px 700px;  /* Adjust to 50% of the element's size, or specify a pixel value like '800px' */
+    background-position: 65% 120%;
+    background-repeat: no-repeat;
+    background-attachment: fixed; /* Keeps the image fixed while scrolling (optional) */
+  }
+
 .header {
     display: flex;
     justify-content: center;
@@ -71,6 +81,10 @@
 .text-content {
     line-height: 1.4;
     padding-top: 5%;
+  background-color: white; /* Sets a white background */
+  padding: 20px; /* Adds space around the text */
+  border-radius: 8px; /* Optional: rounds the corners */
+  /* box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);  */
 }
 
 .text-content .title-font {
