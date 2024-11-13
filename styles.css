@@ -17,6 +17,8 @@ body {
 }
  
 @font-face {
+    font-family: 'times';
+    src: url('fonts/Times_roman.ttf') format('truetype');
     font-family: 'LibreBaskerville';
     src: url('fonts/LibreBaskerville-Italic.ttf') format('truetype');
     font-family: 'SuisseIntl';
@@ -138,6 +140,7 @@ a {
     text-decoration: none; /* Removes the underline */
     color: black;
     font-style: italic;
+    font-family: 'times', sans-serif;
 }
 
 .image-section img {
@@ -165,6 +168,12 @@ a {
     margin-top: -10px;
 }
 
+.exhibition-info {
+    font-family: 'SuisseIntl', sans-serif;
+    font-weight: lighter;
+    font-size: 0.8em;
+
+}
 
 @media (max-width: 1170px) {
     .text-content {
@@ -194,9 +203,6 @@ a {
     .BASTARD-font {
         font-family: 'BASTARD', sans-serif !important;
     }
-    
-
-    
 }
 
 /* Adjustments specifically for iPhone 14 Pro and similar sizes (up to 430px wide) */
