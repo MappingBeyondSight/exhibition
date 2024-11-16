@@ -153,12 +153,19 @@ a {
     font-family: 'times', sans-serif;
 }
 
+.image-section {
+    max-width: 550px;
+    margin: 0 auto;
+    position: relative;
+}
+
 .image-section img {
     width: 500px; /* Set the desired width */
     height: auto; /* Maintains the aspect ratio */
     display: block;
     margin: 0 auto; /* Centers the image */
 }
+
 .Artist {
     color: rgb(55, 55, 55);
     /* font-style: italic; */
@@ -239,3 +246,43 @@ a {
         max-width: 100%;
     }
 }
+
+/* Below are styles related to the image slider */
+
+/* Hide the images by default */
+.mySlides {
+    display: none;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    margin-top: -6px;
+    padding: 6px;
+    color: grey;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 10px;
+    transition: 0.6s ease;
+    /* border-radius: 0 3px 3px 0; */
+    user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+    right: 0;
+    /* border-radius: 3px 0 0 3px; */
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+    background-color: rgba(0,0,0,0.8);
+}
+
+.active {
+    background-color: #717171;
+}
+  
