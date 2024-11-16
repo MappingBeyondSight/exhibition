@@ -1,5 +1,7 @@
 /* styles.css */
 
+a.menu_links { cursor: pointer; }
+
 body {
     background-image: url('images/Artboard 1.png'); /* Path to your background image */
     background-size: 1600px 990px; 
