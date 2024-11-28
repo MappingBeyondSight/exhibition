@@ -123,9 +123,46 @@
                 <a class="my-a" href="https://www.instagram.com/_mst.26/">Masato Yamada</a>
                 <i> )</i>
             </div>
+            <br> 
+            <p>
+                <!-- <img src="images/Untitled-12.png" alt="Decorative icon" class="small-icon">
+                <img src="images/Untitled-12.png" alt="Decorative icon" class="small-icon"> -->
+                <div class="exhibition-view"><span class="arrow-icon">&#9654;</span> Exhibition View:</div>
+            </p>
+            <br>
+            
 
+            <div class="exhibition-images" style="display: none;">
+                
+                <img src="exhibition_view/MAPPING_()_BEYOND_SIGHTHIRES042.jpg" alt="Exhibition Image 1"> <br>
+                <img src="exhibition_view/MAPPING_()_BEYOND_SIGHTHIRES070.jpg" alt="Exhibition Image 2"> <br>
+                <img src="exhibition_view/MAPPING_()_BEYOND_SIGHTHIRES096.jpg" alt="Exhibition Image 3"> <br>
+                <img src="exhibition_view/MAPPING_()_BEYOND_SIGHTHIRES074.jpg" alt="Exhibition Image 4"> <br>
+                <img src="exhibition_view/MAPPING_()_BEYOND_SIGHTHIRES075 2.jpg" alt="Exhibition Image 5"> <br>
+                <img src="exhibition_view/MAPPING_()_BEYOND_SIGHTHIRES002.jpg" alt="Exhibition Image 6"> <br>
+                <img src="exhibition_view/MAPPING_()_BEYOND_SIGHTHIRES005.jpg" alt="Exhibition Image 7"> <br>
+                <img src="exhibition_view/MAPPING_()_BEYOND_SIGHTHIRES006.jpg" alt="Exhibition Image 8"> <br>
+                <img src="exhibition_view/MAPPING_()_BEYOND_SIGHTHIRES007.jpg" alt="Exhibition Image 9"> <br>
+                <img src="exhibition_view/MAPPING_()_BEYOND_SIGHTHIRES008.jpg" alt="Exhibition Image 10"> <br>
+                <img src="exhibition_view/IMG_0256 2.jpg" alt="Exhibition Image 11"> <br>
+                <img src="exhibition_view/IMG_0275 2.jpg" alt="Exhibition Image 12"> <br>
+                
+                
 
-            <br><br>
+                
+                
+                
+                
+                
+                
+                
+
+                <br>
+                <div class="photo_by">Photos by Studio Adamson</div><br><br>
+            </div>
+
+            <br>
+            <br>
 
             <div class="exhibition-info">
                 Curator: <br>
@@ -171,5 +208,18 @@
       slides[slideIndex-1].style.display = "block";
       dots[slideIndex-1].className += " active";
     }
-  </script></body>
+  </script>
+<script>
+    // Exhibition View 클릭 시 이미지 토글 (보이기/숨기기)
+    document.querySelector('.exhibition-view').addEventListener('click', function() {
+        const images = document.querySelector('.exhibition-images');
+        if (images.style.display === 'none' || images.style.display === '') {
+            images.style.display = 'block'; // 이미지 보이기
+        } else {
+            images.style.display = 'none'; // 이미지 숨기기
+        }
+    });
+  </script>
+
+</body>
 </html>

@@ -184,6 +184,44 @@ body {
     letter-spacing: 0.09em;
 }
 
+.exhibition-view {
+    color: rgb(55, 55, 55);
+    font-style: normal;
+
+    border: 1.3px dotted rgb(178, 178, 178); /* Adjust color and thickness as needed */
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 7px;
+    padding-bottom: 6px;
+    font-family: 'HelveticaNeueMedium', sans-serif;
+    margin-bottom: 0;
+    font-size: 0.8em;
+    letter-spacing: 0.09em;
+    display: inline-block; 
+    cursor: pointer; /* 마우스를 올렸을 때 손 모양 커서로 변경 */
+}
+.photo_by {
+    font-family: 'SuisseIntl', sans-serif;
+    font-weight: lighter;
+    letter-spacing: 0.07em;
+    font-size: 0.8em;
+    color: black !important;
+    font-style: normal;
+}
+.exhibition-images {
+    margin-top: 10px; /* 이미지 간격 */
+}
+
+.exhibition-images img {
+    width: 100%; /* 이미지 크기 조정 */
+    margin-bottom: 10px; /* 이미지 간 간격 */
+}
+
+.arrow-icon {
+    font-size: 10px !important; /* 크기를 강제로 20px로 설정 */
+    vertical-align: middle; /* Exhibition View와 정렬 */
+}
+
 .artist-list {
     line-height: 35px;
     margin-top: -10px;
